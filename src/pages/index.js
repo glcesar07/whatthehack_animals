@@ -4,7 +4,6 @@ import Pet from "../models/Pet";
 
 // TODO: Import Hours component
 import Hours from "../components/Hours";
-import Mascot from "../components/Mascot";
 
 const Index = ({ pets }) => {
 
@@ -13,7 +12,6 @@ const Index = ({ pets }) => {
 
       {/* TODO: Display Hours component */}
       <Hours />
-      <Mascot />
 
       {/* Create a card for each pet */}
       {pets.map((pet) => (
